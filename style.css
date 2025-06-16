@@ -1,0 +1,354 @@
+body {
+    color: #373737;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    overflow-x: hidden;
+    background-color: #fff;
+    font-family: Inter, sans-serif;
+}
+
+.container {
+    padding-left: 0;
+    width: 60%;
+    margin: 0 auto;
+    /* Optional: add max-width for large screens */
+    max-width: 1200px;
+}
+
+.ds-header {
+    background-color: whitesmoke;
+    padding: 30px 0;
+    position: sticky;
+    top: -15px;
+    transition-delay: 0s;
+    transition-duration: .4s;
+    transition-property: all;
+    transition-timing-function: ease;
+    width: 100%;
+    z-index: 5;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.ds-header-inner,
+.ds-logo {
+    align-items: center;
+    display: flex;
+}
+
+.ds-header-inner {
+    justify-content: space-between;
+
+}
+
+.ds-logo {
+    color: #000;
+    font-size: 18px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.ds-logo span {
+    align-items: center;
+    background-color: #000;
+    border-radius: 9px;
+    color: #fff;
+    display: flex;
+    font-size: 22px;
+    font-weight: 700;
+    height: 60px;
+    justify-content: center;
+    margin-right: 12px;
+    text-align: center;
+    width: 60px;
+}
+
+.ds-social {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+
+
+}
+
+.ds-social li {
+    margin-right: 10px;
+    /* Adjust the value as needed */
+}
+
+.ds-social li:last-child {
+    margin-right: 0;
+    /* Removes margin from the last icon */
+}
+
+/* ul {
+    margin: 0;
+    padding: 0;
+} */
+
+
+
+.ds-social li a {
+    align-items: center;
+    background-color: #f26464;
+    border-radius: 100%;
+    color: #fff;
+    display: flex;
+    font-size: 18px;
+    height: 30px;
+    justify-content: center;
+    text-align: center;
+    width: 30px;
+    text-decoration: none;
+
+}
+
+.ds-social li a:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+
+.ds-banner section h1 {
+    color: #000;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+}
+
+.ds-banner section h1 span {
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+}
+
+
+.ds-numbervalulist {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 60px 0 0;
+    padding: 0;
+}
+
+
+.ds-numbervalulist li {
+    margin-right: 60px;
+}
+
+.ds-numbervalulist strong {
+    color: #f26464;
+    display: block;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+
+.ds-numbervalulist span {
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.ds-about-section {
+    padding-bottom: 120px;
+    padding-top: 60px;
+}
+
+section {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.ds-heading {
+    border-bottom: 3px solid #f26464;
+    color: #000;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 23px;
+    padding-bottom: 7px;
+    text-transform: uppercase;
+}
+
+.ds-about-section p {
+    color: #373737;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 40px;
+    margin-bottom: 60px;
+}
+
+p {
+    margin-top: 0;
+
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+
+.text-center {
+    text-align: center !important;
+}
+
+.ds-button:hover {
+    background-color: #f26464;
+    color: #fff;
+}
+
+
+.ds-button {
+    border: 2px solid #f26464;
+    border-radius: 60px;
+    color: #f26464;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    line-height: 13px;
+    padding: 17px 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+a {
+    box-shadow: none;
+    outline: none;
+    text-decoration: none;
+    transition-delay: 0s;
+    transition-duration: .4s;
+    transition-property: all;
+    transition-timing-function: ease;
+}
+
+.ds-skills-section {
+    padding-bottom: 105px;
+}
+
+.ds-skills-list {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 11px 0 0;
+    padding: 0;
+}
+
+.ds-skills-list li {
+    background-color: #fff;
+    border: 1px solid #d7d7d7;
+    border-radius: 27px;
+    color: #373737;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    padding: 10px 20px;
+}
+
+
+.ds-experience-section {
+    padding-bottom: 120px;
+}
+
+
+.ds-work-section {
+    padding-bottom: 80px;
+   
+}
+
+.ds-work-list {
+    background-color: #f6f8fa;
+    margin-bottom: 40px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.ds-work-tilte {
+    color: #000;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 36px;
+    margin-bottom: 30px;
+}
+
+.ds-work-list p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.ds-work-list .ds-button {
+    margin-top: 20px;
+}
+
+
+.ds-footer {
+    background-color: #000;
+    padding: 120px 0;
+}
+
+.ds-footer section {
+    padding-bottom: 97px;
+}
+
+.ds-footer section span {
+    color: hsla(0, 0%, 100%, .5);
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.ds-footer section h4 {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.ds-footer section p {
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1.13px;
+    margin-bottom: 40px;
+}
+
+.ds-copyright,
+.ds-copyright a {
+    color: hsla(0, 0%, 100%, .5);
+}
+
+.ds-copyright {
+    font-size: 16px;
+    letter-spacing: 1px;
+}
